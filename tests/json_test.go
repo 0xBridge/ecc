@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	eccEncoding "github.com/bytemare/ecc/encoding"
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc"
+	eccEncoding "github.com/0xBridge/ecc/encoding"
+	"github.com/0xBridge/ecc/internal"
 )
 
 func replaceStringInBytes(data []byte, old, new string) []byte {

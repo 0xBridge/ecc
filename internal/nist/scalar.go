@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/bytemare/ecc/internal"
-	"github.com/bytemare/ecc/internal/field"
+	"github.com/0xBridge/ecc/internal"
+	"github.com/0xBridge/ecc/internal/field"
 )
 
 // Scalar implements the Scalar interface for group scalars.

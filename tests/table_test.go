@@ -12,7 +12,7 @@ import (
 	"crypto"
 	"testing"
 
-	group "github.com/bytemare/ecc"
+	group "github.com/0xBridge/ecc"
 )
 
 func testAllGroups(t *testing.T, f func(*testGroup)) {

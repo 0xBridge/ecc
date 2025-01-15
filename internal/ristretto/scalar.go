@@ -16,7 +16,7 @@ import (
 
 	"github.com/gtank/ristretto255"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 const canonicalEncodingLength = 32

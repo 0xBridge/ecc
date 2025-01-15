@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bytemare/ecc/internal"
-	"github.com/bytemare/ecc/internal/edwards25519"
-	"github.com/bytemare/ecc/internal/nist"
-	"github.com/bytemare/ecc/internal/ristretto"
-	"github.com/bytemare/ecc/internal/secp256k1"
+	"github.com/0xBridge/ecc/internal"
+	"github.com/0xBridge/ecc/internal/edwards25519"
+	"github.com/0xBridge/ecc/internal/nist"
+	"github.com/0xBridge/ecc/internal/ristretto"
+	"github.com/0xBridge/ecc/internal/secp256k1"
 )
 
 // Group identifies prime-order groups over elliptic curves with hash-to-group operations.

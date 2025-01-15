@@ -15,7 +15,7 @@ import (
 
 	"github.com/gtank/ristretto255"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 // Element implements the Element interface for the Ristretto255 group element.

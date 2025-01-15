@@ -10,7 +10,7 @@
 package debug
 
 import (
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 var groupOrderPlusOne = map[ecc.Group][]byte{

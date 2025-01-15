@@ -14,7 +14,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/bytemare/ecc/internal/ristretto"
+	"github.com/0xBridge/ecc/internal/ristretto"
 )
 
 const (

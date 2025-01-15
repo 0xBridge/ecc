@@ -22,8 +22,8 @@ import (
 	"filippo.io/edwards25519"
 	"filippo.io/edwards25519/field"
 
-	"github.com/bytemare/ecc"
-	edwards255192 "github.com/bytemare/ecc/internal/edwards25519"
+	"github.com/0xBridge/ecc"
+	edwards255192 "github.com/0xBridge/ecc/internal/edwards25519"
 )
 
 const hashToCurveVectorsFileLocation = "h2c"

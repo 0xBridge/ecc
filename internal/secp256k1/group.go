@@ -12,9 +12,9 @@ package secp256k1
 import (
 	"crypto"
 
-	"github.com/bytemare/secp256k1"
+	"github.com/0xBridge/secp256k1"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 const (

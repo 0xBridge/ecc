@@ -16,10 +16,10 @@ import (
 	"sync"
 
 	"filippo.io/nistec"
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
 
-	"github.com/bytemare/ecc/internal"
-	"github.com/bytemare/ecc/internal/field"
+	"github.com/0xBridge/ecc/internal"
+	"github.com/0xBridge/ecc/internal/field"
 )
 
 const (

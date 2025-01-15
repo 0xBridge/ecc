@@ -13,10 +13,10 @@ import (
 	"crypto"
 	"slices"
 
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
 	"github.com/gtank/ristretto255"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 const (

@@ -18,9 +18,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	"github.com/bytemare/ecc/debug"
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc"
+	"github.com/0xBridge/ecc/debug"
+	"github.com/0xBridge/ecc/internal"
 )
 
 func TestScalar_Group(t *testing.T) {

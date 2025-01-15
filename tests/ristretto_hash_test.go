@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytemare/ecc/internal/ristretto"
+	"github.com/0xBridge/ecc/internal/ristretto"
 )
 
 type ristrettoH2gTestBytes struct {

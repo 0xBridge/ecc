@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc"
+	"github.com/0xBridge/ecc/internal"
 )
 
 const consideredAvailableFmt = "%v is considered available when it must not"

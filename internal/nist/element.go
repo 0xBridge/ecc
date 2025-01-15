@@ -16,7 +16,7 @@ import (
 
 	"filippo.io/nistec"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 const (

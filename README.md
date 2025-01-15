@@ -1,10 +1,10 @@
 # Elliptic Curve Groups
-[![CI](https://github.com/bytemare/ecc/actions/workflows/code-scan.yml/badge.svg)](https://github.com/bytemare/ecc/actions/workflows/code-scan.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/ecc.svg)](https://pkg.go.dev/github.com/bytemare/ecc)
+[![CI](https://github.com/0xBridge/ecc/actions/workflows/code-scan.yml/badge.svg)](https://github.com/0xBridge/ecc/actions/workflows/code-scan.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/ecc.svg)](https://pkg.go.dev/github.com/0xBridge/ecc)
 [![codecov](https://codecov.io/gh/bytemare/ecc/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/ecc)
 
 ```Go
-  import "github.com/bytemare/ecc"
+  import "github.com/0xBridge/ecc"
 ```
 
 This package exposes abstract operations over opaque (prime-order) elliptic curve groups and their scalars and elements,
@@ -27,7 +27,7 @@ implementations:
 | 4  | P-384        | yes               | filippo.io/nistec             |
 | 5  | P-521        | yes               | filippo.io/nistec             |
 | 6  | Edwards25519 | no                | filippo.io/edwards25519       |
-| 7  | Secp256k1    | yes               | github.com/bytemare/secp256k1 |
+| 7  | Secp256k1    | yes               | github.com/0xBridge/secp256k1 |
 | 9  | Curve25519   | not yet supported | not yet supported             |
 | 8  | Double-Odd   | not yet supported | not yet supported             |
 
@@ -117,13 +117,13 @@ type Element interface {
 }
 ```
 
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/ecc.svg)](https://pkg.go.dev/github.com/bytemare/ecc)
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/ecc.svg)](https://pkg.go.dev/github.com/0xBridge/ecc)
 
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/ecc) and [the project wiki](https://github.com/bytemare/ecc/wiki) .
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/0xBridge/ecc) and [the project wiki](https://github.com/0xBridge/ecc/wiki) .
 
 ## Versioning
 
-[SemVer](https://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/ecc/tags).
+[SemVer](https://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/0xBridge/ecc/tags).
 
 ## Contributing
 

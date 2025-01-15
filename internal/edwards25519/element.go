@@ -14,7 +14,7 @@ import (
 
 	ed "filippo.io/edwards25519"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 // Element implements the Element interface for the Edwards25519 group element.

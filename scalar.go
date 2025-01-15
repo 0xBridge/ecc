@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 // Scalar represents a scalar in the prime-order group.

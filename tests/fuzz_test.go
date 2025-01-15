@@ -11,9 +11,9 @@ package ecc_test
 import (
 	"testing"
 
-	"github.com/bytemare/ecc"
-	"github.com/bytemare/ecc/encoding"
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc"
+	"github.com/0xBridge/ecc/encoding"
+	"github.com/0xBridge/ecc/internal"
 )
 
 func FuzzGroup(f *testing.F) {

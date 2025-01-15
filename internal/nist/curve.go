@@ -12,9 +12,10 @@ import (
 	"crypto"
 	"math/big"
 
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
+	hash2curveSecp "github.com/0xBridge/hash2curve/secp256k1"
 
-	"github.com/bytemare/ecc/internal/field"
+	"github.com/0xBridge/ecc/internal/field"
 )
 
 type mapping struct {
@@ -58,7 +59,7 @@ func (c *curve[point]) hashXMD(input, dst []byte) point {
 }
 
 func (c *curve[point]) map2curve(fe *big.Int) point {
-	x, y := hash2curve.MapToCurveSSWU(&nistWa, &c.b, &c.z, fe, c.field.Order())
+	x, y := hash2curveSecp.MapToCurveSSWU(&nistWa, &c.b, &c.z, fe, c.field.Order())
 	return c.affineToPoint(x, y)
 }
 

@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 // Element represents an element on the curve of the prime-order group.

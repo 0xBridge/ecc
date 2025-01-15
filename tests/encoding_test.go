@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	eccEncoding "github.com/bytemare/ecc/encoding"
+	"github.com/0xBridge/ecc"
+	eccEncoding "github.com/0xBridge/ecc/encoding"
 )
 
 type serde interface {

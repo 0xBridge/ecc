@@ -12,9 +12,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bytemare/secp256k1"
+	"github.com/0xBridge/secp256k1"
 
-	"github.com/bytemare/ecc/internal"
+	"github.com/0xBridge/ecc/internal"
 )
 
 // Element implements the Element interface for the Secp256k1 group element.
